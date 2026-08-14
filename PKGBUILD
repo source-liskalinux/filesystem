@@ -1,3 +1,8 @@
+# PKGBUILD For Liska Linux Filesystem
+
+# Contributor: Janorovic Volkov <janorovicvolkov@gmail.com>
+# Maintainer: Janorovic Volkov <janorovicvolkov@gmail.com>
+
 pkgname=filesystem
 pkgver=2026.08
 pkgrel=1
