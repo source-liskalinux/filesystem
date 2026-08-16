@@ -104,11 +104,9 @@ package() {
         ["var/lock"]="../run/lock"
         ["var/mail"]="spool/mail"
         ["var/run"]="../run"
+        ["lib64"]="usr/lib"
+        ["usr/lib64"]="lib"
     )
-    if [[ $CARCH = 'x86_64' ]]; then
-        symlinks["lib64"]="usr/lib"
-        symlinks["usr/lib64"]="lib"
-    fi
     cd "$pkgdir"
     for dir in "${!directories[@]}"; do
         IFS=':' read -r mode user group <<< "${directories[$dir]}"
