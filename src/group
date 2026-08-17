@@ -1,2 +1,5 @@
 root:x:0:
 messagebus:x:18:
+avahi:x:84:
+polkitd:x:102:
+network:x:90:
