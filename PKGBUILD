@@ -90,9 +90,6 @@ package() {
         ["var/opt"]="755:0:0"
         ["var/spool/mail"]="1777:0:0"
         ["var/tmp"]="1777:0:0"
-        ["src_sfs"]="755:0:0"
-        ["cow"]="755:0:0"
-        ["new_root"]="755:0:0"
     )
     symlinks=(
         ["bin"]="usr/bin"
